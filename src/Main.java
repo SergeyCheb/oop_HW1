@@ -12,6 +12,7 @@ public class Main {
         Animal lion = new Lion("Симба", "желтый");
         Animal dolphin = new Dolphin("Дельфин", 0);
         Animal swan = new Swan("Лебедь", 2);
+        Animal titmouse = new Titmouse("Синица", 2);
 
         System.out.println(vaska);
         System.out.println(vaska.getType());
@@ -32,6 +33,8 @@ public class Main {
         animals.add(lion);
         animals.add(dolphin);
         animals.add(swan);
+        animals.add(titmouse);
+
         animals.forEach(Animal::speak);
         System.out.println("--------летчики------------");
 
